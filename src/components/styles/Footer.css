@@ -17,4 +17,6 @@ footer h3 {
 .sns-Links a {
     display: block;
     color: #fff;
+    padding-left: 20px;
+    transform: translate(-10px);
 }

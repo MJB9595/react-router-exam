@@ -11,8 +11,8 @@ const Footer = () => {
                 {snsLinks.map((s)=>(
                     <li key={s.id}>
                         <a href="{s.url">
+                            <img src={s.icon} alt={s.name}/><br/>
                             {s.name}
-                            <img src={s.icon} alt={s.name}/>
                             </a>
                         </li>
                 ))}
