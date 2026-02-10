@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <footer>
         <div className='inner'>
-            <h3>title</h3>
             <ul className='sns-Links'>
                 {snsLinks.map((s)=>(
                     <li key={s.id}>
