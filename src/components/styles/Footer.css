@@ -1,0 +1,20 @@
+footer {
+    background-color: #535353;
+    text-align: center;
+    padding: 2rem;
+    color: #fff;
+}
+
+footer h3 {
+    font-size: 2rem;
+}
+
+.sns-Links {
+    display: flex;
+    justify-content: center;
+}
+
+.sns-Links a {
+    display: block;
+    color: #fff;
+}

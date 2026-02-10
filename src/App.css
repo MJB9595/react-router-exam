@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Dongle&display=swap');
+
+html {font-size: 62.5%;}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #383838;
+}
+
+ul, ol{
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 7rem;
+}
+
+body {
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inner {
+  max-width: 144rem;
+  margin: auto;
+}
+
+section {
+  min-height: 80vh;
+}
+
+section .inner {
+  padding: 1rem 0;
+}
+
+
