@@ -21,7 +21,7 @@
     min-height: 200px;
 }
 
-button {
+.bd-btn {
     margin-top: 10px;
     padding: 10px 20px;
     cursor: pointer;

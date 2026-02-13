@@ -1,0 +1,165 @@
+.TodoContainer {
+  width: 60rem; 
+  margin: 4rem auto; 
+  padding: 4rem;
+  background-color: #ffffff;
+  border-radius: 2rem; 
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.05); 
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-family: "Dongle", sans-serif;
+}
+
+.TodoHeader {
+  margin-bottom: 1rem;
+}
+
+.TodoHeader h3 {
+  font-size: 2.4rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.TodoHeader h1 {
+  font-family: "Do Hyeon", sans-serif; 
+  font-size: 4rem;
+  color: slateblue; 
+  letter-spacing: 0.1rem;
+}
+
+.Editor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.Editor input {
+  flex: 1;
+  padding: 1rem;
+  border: 0.2rem solid #eee;
+  border-radius: 1rem;
+  font-family: "Dongle", sans-serif;
+  font-size: 2.4rem; 
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.Editor input:focus {
+  border-color: slateblue;
+  box-shadow: 0 0 0 0.4rem rgba(106, 90, 205, 0.1);
+}
+
+.Editor button {
+  cursor: pointer;
+  padding: 1.5rem 2.5rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: slateblue;
+  color: #fff;
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 1.8rem;
+  transition: background-color 0.2s;
+}
+
+.Editor button:hover {
+  background-color: darkslateblue;
+}
+
+.TodoList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.TodoList h4 {
+  font-size: 2.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.TodoList > input {
+  width: 100%;
+  padding: 1rem 0;
+  border: none;
+  border-bottom: 0.2rem solid #eee;
+  font-family: "Dongle", sans-serif;
+  font-size: 2.2rem;
+  outline: none;
+  background: transparent;
+  transition: border-color 0.3s;
+  margin-bottom: 2rem;
+}
+
+.TodoList > input:focus {
+  border-bottom-color: slateblue;
+}
+
+.todos_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.TodoItem {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-bottom: 0.1rem solid #f9f9f9;
+  transition: background-color 0.2s;
+  border-radius: 1rem;
+}
+
+.TodoItem:hover {
+  background-color: #f8f9fa; 
+}
+
+.TodoItem input[type="checkbox"] {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  accent-color: slateblue;
+}
+
+.TodoItem .content {
+  flex: 1;
+  font-size: 2.6rem;
+  color: #383838;
+  line-height: 1.2;
+  padding-top: 0.5rem;
+}
+
+.TodoItem .date {
+  font-size: 1.8rem;
+  color: #aaa;
+}
+
+.TodoItem button {
+  cursor: pointer;
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 1.4rem;
+  color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.1);
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  opacity: 0;
+  transition: opacity 0.2s, background-color 0.2s;
+}
+
+.TodoItem:hover button {
+  opacity: 1;
+}
+
+.TodoItem button:hover {
+  background: #ff6b6b;
+  color: white;
+}
+
+.TodoItem.done .content {
+  text-decoration: line-through;
+  color: #ccc;
+}

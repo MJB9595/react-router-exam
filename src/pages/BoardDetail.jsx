@@ -25,7 +25,7 @@ const BoardDetail = () => {
             </div>
         </div>
         
-        <button onClick={() => navigate('/board')}>
+        <button className='bd-btn' onClick={() => navigate('/board')}>
             목록으로
         </button>
     </div>
